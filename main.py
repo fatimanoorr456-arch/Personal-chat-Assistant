@@ -3,7 +3,7 @@
 import datetime
 import time
 
-name= input("Hi, enter your name : ")   #Get user name
+name= input("Hi, enter your name : ")  
 
 
 presentHour= datetime.datetime.now().hour
