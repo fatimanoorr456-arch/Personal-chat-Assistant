@@ -3,7 +3,7 @@
 import datetime
 import time
 
-name= input("Hi, enter your name : ")  
+name= input("Hi, What's your name : ")  
 
 
 presentHour= datetime.datetime.now().hour
@@ -19,7 +19,7 @@ else:
 
 
 
-print("Hello! Welcome to Your ChatBot")
+print(f"{name}!,  Welcome to Your ChatBot")
 print("You can ask me basic question, Type 'bye' to exit from the bot")
 
 # Chatbot Memory Creation  (dictionary of responses )
@@ -30,7 +30,8 @@ responses = {
     "who are you": "I am smart AI chatbot",
     "motivate me": "Keep going. Every bug of your project makes you a better developer",
     "happy": "Great to hear that",
-    "what are functions": "A function is a reusable block of code that performs a specific task."
+    "what are functions": "A function is a reusable block of code that performs a specific task.",
+    "bye": "goodbye"
 } 
 
 # Method/Function to get response of ChatBot 
